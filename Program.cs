@@ -21,6 +21,8 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
+// test
+
 
 app.MapGet("/v2/generate", (string? length,string? count,string? numbers,string? upperChars,string? lowerChars,string? specialChars,
     string? mustHave,string? startsWith,string? endsWith,string? include,string? exclude,string? type, PasswordGenerateService passwordGenerate) =>
